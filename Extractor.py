@@ -4,7 +4,7 @@ import numpy as np
 import os
 import openpyxl 
 
-# Define the volume metrics (Dcc and D%)
+# Define the dose metrics (Dcc and D%)
 Dcc_values = {
             "D0.035cc": 0.035,
             "D0.1cc": 0.1,

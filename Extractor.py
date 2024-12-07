@@ -193,11 +193,11 @@ def process_excel(uploaded_file):
             if pd.notnull(d10cc_value) and d10cc_value > 59.2:
                 high_risk_messages.append("Patient is in high risk group (D10cc(Gy) > 59.2).")
 
-        # Check V60Gy(cc) > 12.6
+        # Check V60Gy(cc) > 12.44
         if 'V60Gy(cc)' in Vcc_df.columns:
             v60cc_value = Vcc_df.at['Vcc', 'V60Gy(cc)']
-            if pd.notnull(v60cc_value) and v60cc_value > 12.6:
-                high_risk_messages.append("Patient is in high risk group (V60Gy(cc) > 12.6).")
+            if pd.notnull(v60cc_value) and v60cc_value > 12.44:
+                high_risk_messages.append("Patient is in high risk group (V60Gy(cc) > 12.44).")
 
         # Display high-risk messages if any
         if high_risk_messages:
@@ -345,11 +345,11 @@ def process_csv(csv_file):
             if pd.notnull(d10cc_value) and d10cc_value > 59.2:
                 high_risk_messages.append("Patient is in high risk group (D10cc(Gy) > 59.2).")
 
-        # Check V60Gy(cc) > 12.6
+        # Check V60Gy(cc) > 12.44
         if 'V60Gy(cc)' in Vcc_df.columns:
             v60cc_value = Vcc_df.at['Vcc', 'V60Gy(cc)']
-            if pd.notnull(v60cc_value) and v60cc_value > 12.6:
-                high_risk_messages.append("Patient is in high risk group (V60Gy(cc) > 12.6).")
+            if pd.notnull(v60cc_value) and v60cc_value > 12.44:
+                high_risk_messages.append("Patient is in high risk group (V60Gy(cc) > 12.44).")
 
         # Display high-risk messages if any
         if high_risk_messages:

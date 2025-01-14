@@ -1,7 +1,7 @@
 # DVH Meteric Calculator
 
 ## Overview
-**DVH Calculator** is a Streamlit-based web application designed to analyze Dose-Volume Histogram (DVH) data from medical imaging. The app computes key dose and volume metrics (`Dcc`, `D%`, `Vcc`, and `V%`) and identifies high-risk patient groups based on clinical thresholds.
+**DVH Calculator** is a Streamlit-based web application designed to analyze Dose-Volume Histogram (DVH) data. The app computes key dose and volume metrics (`Dcc`, `D%`, `Vcc`, and `V%`) and identifies high-risk patient groups based on clinical thresholds.
 
 ## Features
 - **Dose Metrics Calculation**
